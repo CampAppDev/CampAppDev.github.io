@@ -1,0 +1,97 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Beta</title>
+    <link rel="stylesheet" tyep="text/css" href="~/Content/home.css" />
+    @Scripts.Render("~/bundles/jquery")
+    <script>
+        var currentIndex = 0,
+  items = $('.container div'),
+  itemAmt = items.length;
+
+        function cycleItems() {
+            var item = $('.container div').eq(currentIndex);
+            items.hide();
+            item.css('display', 'inline-block');
+        }
+
+        var autoSlide = setInterval(function () {
+            currentIndex += 1;
+            if (currentIndex > itemAmt - 1) {
+                currentIndex = 0;
+            }
+            cycleItems();
+        }, 3000);
+
+        $('.next').click(function () {
+            clearInterval(autoSlide);
+            currentIndex += 1;
+            if (currentIndex > itemAmt - 1) {
+                currentIndex = 0;
+            }
+            cycleItems();
+        });
+
+        $('.prev').click(function () {
+            clearInterval(autoSlide);
+            currentIndex -= 1;
+            if (currentIndex < 0) {
+                currentIndex = itemAmt - 1;
+            }
+            cycleItems();
+        });
+    </script>
+
+</head>
+<body>
+    <div class="beta">
+        <div id="top">
+            <div class="cont">
+                <div id="navbar">
+                    <ul class="topnav">
+                        <li><a id="logo" href="#">camp.er</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Our Product</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+
+                </div>
+                <hr />
+                <div id="topContent">
+                    <h1>An operations research platform</h1>
+                    A front-office solution for camps
+                </div>
+                <div id="email">
+                    <form id="emailForm">
+                        <h3>Sign up to be notified when the product is released</h3>
+                        <input type="email" name="email" value="" placeholder="Enter your email address" />
+                        <div>
+                            <a id="submit" href="#">Sign Up</a>
+                        </div>
+                        <h3>Sign Up Successful!</h3>
+                        
+                    </form>
+                </div> 
+            </div>
+        </div> 
+        <div id="bottom">
+            <div id="prev" class="slide-nav">
+                <a href="#" class="slide-nav-btn">&#8249;</a>
+            </div>
+            <div id="slides">
+                slides
+            </div>
+            <div id="next" class="slide-nav">
+                <a href="#" class="slide-nav-btn">&#8250;</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
