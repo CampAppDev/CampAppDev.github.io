@@ -1,0 +1,234 @@
+﻿body {
+}
+
+
+#home_index{
+    height:calc(100vh - 80px);
+    position:absolute;
+    top:80px;
+    width:100%;
+}
+
+#top{
+    height:100%;
+    background:white;
+    /*background: rgba(250,245,224,1);
+background: -moz-linear-gradient(top, rgba(250,245,224,1) 0%, rgba(226,223,197,1) 71%, rgba(226,223,197,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(250,245,224,1)), color-stop(71%, rgba(226,223,197,1)), color-stop(100%, rgba(226,223,197,1)));
+background: -webkit-linear-gradient(top, rgba(250,245,224,1) 0%, rgba(226,223,197,1) 71%, rgba(226,223,197,1) 100%);
+background: -o-linear-gradient(top, rgba(250,245,224,1) 0%, rgba(226,223,197,1) 71%, rgba(226,223,197,1) 100%);
+background: -ms-linear-gradient(top, rgba(250,245,224,1) 0%, rgba(226,223,197,1) 71%, rgba(226,223,197,1) 100%);
+background: linear-gradient(to bottom, rgba(250,245,224,1) 0%, rgba(226,223,197,1) 71%, rgba(226,223,197,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#faf5e0', endColorstr='#e2dfc5', GradientType=0 );*/
+background-image:url(http://static1.squarespace.com/static/54f382d7e4b09389aa3b9d1e/t/558ad07de4b0e9f43df1e5bc/1435160712911/Great+Camp+Sagamore-8370.jpg?format=1500w);
+background-repeat:no-repeat;
+background-size:100% 100%;
+}
+
+
+#bottom{
+    background:#1B9AAA;
+    height:25%;
+    width:100%;
+}
+
+#prev{
+    width: 10%;
+    height: 100%;
+    display:inline-block;
+    text-align:center;
+    font-size:150px;
+    text-decoration:none;
+    line-height:calc(100vh - 80px);
+    float:left;
+    background:rgba(0,0,0,.1);
+    color:white;
+}
+
+#slides{
+
+    float:left;
+    width:80%;
+    height:100%;
+
+}
+
+.slide{
+    width:80%;
+    height:calc(75vh - 80px - 10vh);
+    background:rgba(0,0,0,.8);
+    margin:5vh auto;
+    border-radius:5px;
+    color:white;
+    display:none;
+    text-align:center;
+}
+
+.current{
+    display:block;
+}
+
+#next{
+    width: 10%;
+    height: 100%;
+    display:inline-block;
+    text-align:center;
+    font-size:150px;
+    text-decoration:none;
+    line-height:calc(100vh - 80px);
+    float:left;
+    background:rgba(0,0,0,.4);
+    color:white;
+}
+
+#subscribe{
+    height:100%;
+    width:90%;
+    margin:0 5%;
+}
+
+
+#signup{
+    width:80%;
+    height:auto;
+    background:rgba(0,0,0,.8);
+    margin:5vh auto;
+    border-radius:5px;
+    color:white;
+    padding:30px 0;
+}
+
+/*#subscribe{
+    background:#1CD24E;
+    padding:10px;
+    color:white;
+}*/
+
+
+
+.header {
+  font-size: 35px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight:bold;
+}
+
+
+.description {
+  font-size: 24px;
+  letter-spacing: 1px;
+  line-height: 1.3em;
+  font-weight:bold;
+}
+
+
+.input {
+  display: flex;
+  align-items: center;
+}
+
+
+.button {
+  height: 44px;
+  border: none;
+}
+
+  
+#email {
+  width: 75%;
+  font-family: montserrat;
+  color: #737373;
+  background:white;
+  letter-spacing: 1px;
+  text-indent: 5%;
+  height:66px;
+}
+
+
+#submit {
+  width: 25%;
+  height: 66px;
+  background: #1CD24E;
+  font-family: inherit;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 1px;
+  /*cursor: pointer;*/
+  transition: background .3s ease-in-out;
+}
+  
+
+#submit:hover {
+  transition-duration:.5s;
+  border:1px solid white;
+}
+
+  
+
+input:focus {
+  outline: 1px solid #1CD24E;
+}
+
+.error{
+    outline: 2px solid #E86C8D;
+    box-shadow: 0 0 2px #E86C8D;
+}
+
+.left-panel{
+    float:left;
+    height:90%;
+    width:45%;
+    margin:2.5%;
+}
+
+.right-panel{
+    float:right;
+    height:90%;
+    width:45%;
+    margin:2.5%;
+    border:1px solid white;
+    position:relative;
+}
+
+.title{
+    text-shadow:
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff; 
+    color:#1CD24E;
+    font-size:4vw;
+    height:10%;
+}
+
+.top-image{
+   height:25%;
+   background:white;
+   width:100%;
+   position:absolute;
+   left:0;
+   color:black;
+}
+
+.right-panel h1{
+    float:left;
+    width:100%;
+    color:white;
+    position:absolute;
+    top:30%;
+    text-align:left;
+    font-size:2vw;
+}
+
+.image{
+    color:black;
+    height:70%;
+    margin-top:50px;
+    position:relative;
+    font-size:medium;
+}
+
+.slide ul{
+    list-style-position: inside;
+    text-align:left;
+}
