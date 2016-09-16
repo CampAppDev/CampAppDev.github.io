@@ -65,6 +65,12 @@
 
 $(document).ready(function () {
 
+    $('#login').click(function(){
+       
+       alert("Sorry! We're not live yet! Sign up on our home page and we'll let you know when we go live!");
+        
+    });
+
 
     $('#prev').click(function () {
 
