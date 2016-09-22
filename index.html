@@ -10,31 +10,22 @@
 <body>
     <nav class="navbar navbar-default navigation-bar">
         <div class="container-fluid">
-                @Html.ActionLink("Menu","Menu","Home",null,new { @class = "navbar-toggle collapsed"})
-                @Html.ActionLink("BunkMates", "Index", "Home", new { id = "logo" })
+                <a href="Menu.html" class="navbar-toggle collapsed">Menu</a>
+                <a href="Index.html" id="logo">BunkMates</a>
             </div>
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul id="menu">
-                    <li class="navlink navbar-link">@Html.ActionLink("Our Team", "AboutUs", "Home")</li>
-                    <li class="navlink navbar-link">@Html.ActionLink("Our Product", "Product", "Home")</li>
+                    <li class="navlink navbar-link"><a href="AboutUs.html">Our Team</a></li>
+                    <li class="navlink navbar-link"><a href="AboutUs.html">Our Product</a></li>
                 </ul>
                 <div class="nav navbar-nav navbar-right">
                     <section id="login">
-                        @Html.Partial("_LoginPartial")
+                        <a href="login.html" id="loginLink">Log In</a>
                     </section>
                 </div>
             </div>
     </nav>
-   <div id="navbar">
-      <ul id="nav">
-         <li class="navlink"><a href="/" id="logo">BunkMates</a></li>
-         <li class="navlink"><a href="AboutUs.html">Our Team</a></li>
-         <li class="navlink"><a href="#">Our Product</a></li>
-      </ul>
-      <div class="pull-right" id="login">
-         <a href="#">Log In</a>
-      </div>
    </div>
    <div class="body-content">
         <div id="home_index">
