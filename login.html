@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+   <script type="text/javascript" src="jquery.js"></script>
+   <script type="text/javascript" src="home.js"></script>
+   <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css" />
+   <link type="text/css" rel="stylesheet" href="bootstrap.css" />
+    <link type="text/css" rel="stylesheet" href="~/Content/App/login.css" />
+   <link type="text/css" rel="stylesheet" href="style.css" />
+</head>
+
+<nav class="navbar navbar-default navigation-bar">
+        <div class="container-fluid">
+                <a href="menu.html" class="navbar-toggle collapsed">Menu</a>
+                <a href="index.html" id="logo">BunkMates</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul id="menu">
+                    <li class="navlink navbar-link"><a href="aboutus.html">Our Team</a></li>
+                    <li class="navlink navbar-link"><a href="product.html">Our Product</a></li>
+                </ul>
+                <div class="nav navbar-nav navbar-right">
+                    <section id="login">
+                        <a href="login.html" id="loginLink">Log In</a>
+                    </section>
+                </div>
+            </div>
+    </nav>
+
+<div class="login">
+
+
+    <div class="login-screen">
+        <h4>Log In</h4>
+        <hr />
+        <div class="row">
+            <div class="col-md-8">
+                <section id="loginForm">
+                    <form class="form-horizontal">
+                            
+                            <div class="form-group">
+                                <label for="CampID" class="col-md-2 control-label">Camp ID</label>
+                                <div class="col-md-10">
+                                    <input type="text" name="CampID" class="form-control textbox" placeholder="Enter your Camp ID" /> 
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="pw" class="col-md-2 control-label">Password</label>
+                                <div class="col-md-10">
+                                    <input type="password" name="pw" class="form-control textbox" placeholder="Enter your password" /> 
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-offset-2 col-md-10">
+                                    <input type="submit" value="Log In" class="btn btn-default login-btn" />
+                                </div>
+                            </div>
+                    </section>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </div>
+
+</div>
+</html>
