@@ -8,6 +8,24 @@
    <link type="text/css" rel="stylesheet" href="style.css" />
 </head>
 <body>
+    <nav class="navbar navbar-default navigation-bar">
+        <div class="container-fluid">
+                @Html.ActionLink("Menu","Menu","Home",null,new { @class = "navbar-toggle collapsed"})
+                @Html.ActionLink("BunkMates", "Index", "Home", new { id = "logo" })
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul id="menu">
+                    <li class="navlink navbar-link">@Html.ActionLink("Our Team", "AboutUs", "Home")</li>
+                    <li class="navlink navbar-link">@Html.ActionLink("Our Product", "Product", "Home")</li>
+                </ul>
+                <div class="nav navbar-nav navbar-right">
+                    <section id="login">
+                        @Html.Partial("_LoginPartial")
+                    </section>
+                </div>
+            </div>
+    </nav>
    <div id="navbar">
       <ul id="nav">
          <li class="navlink"><a href="/" id="logo">BunkMates</a></li>
@@ -19,76 +37,30 @@
       </div>
    </div>
    <div class="body-content">
-      <div id="home_index">
-         <div id="top">
-            <a id="prev" href="#">&lsaquo;</a>
-            <div id="slides">
-               <input type="hidden" id="current_slide" value="0"/>
-               <div class="slide current" number="0">
-                  <div class="left-panel">
-                     <h1 class="title">GroupAssign</h1>
-                     <div class="image">Image Goes Here</div>
-                  </div>
-                  <div class="right-panel">
-                     <div class="container">
-                        <p>Here's a description</p>
-                        <ul>
-                           <li>With bullets</li>
-                           <li>and stuff</li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-               <div class="slide" number="1">
-                  <div class="left-panel">
-                     <h1 class="title">Teams</h1>
-                     <div class="image">
-                        <img src="torch.png" />
-                     </div>
-                  </div>
-                  <div class="right-panel">
-                     <div class="container">
-                        <div class="top-image">Test 123</div>
-                        <h1>Spend time making events, not teams</h1>
-                        <p>Here's a description</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="slide" number="2">
-                  <div class="left-panel">
-                     <h1 class="title">Schedule Builder</h1>
-                     <div class="image">Image Goes Here</div>
-                  </div>
-                  <div class="right-panel">
-                     <div class="container">
-                        <p>Here's a description</p>
-                        <ul>
-                           <li>With bullets</li>
-                           <li>and stuff</li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-               <div id="signup">
-                  <div name="subscribe" id="subscribe">
-                     <div class="header">
-                        <p>Beta Access</p>
-                     </div>
-                     <div class="description">
-                        <p>Enter your email and we'll notify you when BunkMates is available!</p>
-                     </div>
-                     <div class="input">
-                        <input type="text" class="button" id="email" name="email" placeholder="NAME@EXAMPLE.COM">
-                        <input type="submit" class="button" id="submit" value="SIGN UP">
-                     </div>
-                     <p style="display:none">Thanks for signing up! We'll contact you whe BunkMates is ready!</p>
-                     <p style="display:none">There was an error signing you up! Please make sure you're entering a valid email and try again!</p>
-                  </div>
-               </div>
+        <div id="home_index">
+
+    <div class="product">
+       
+        
+        <div class="row">
+            <div class="col-md-offset-2 col-md-8 slides">
+                test
             </div>
-            <a id="next" href="#">&rsaquo;</a>
-         </div>
-      </div>
+        </div>
+
+     
+         
+        <div class="footer">
+            <div class="slide-link"><a class="selected" value="ar">Overview</a></div>
+            <div class="slide-link"><a value="jh">Groups</a></div>
+            <div class="slide-link"><a value="rw">Teams</a></div>
+            <div class="slide-link"><a value="jb">Docs</a></div>
+            <span class="stretcher"></span>
+        </div>
+    </div>
+
+ 
+</div>
    </div>
 </body>
 </html>
