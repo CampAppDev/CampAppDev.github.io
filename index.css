@@ -3,10 +3,92 @@
 
 
 #home_index{
-    height:calc(100vh - 80px);
+    height:calc(100vh - 60px);
     position:absolute;
-    top:80px;
+    top:60px;
     width:100%;
+    background:blue;
+}
+
+.product{
+    height:calc(100vh - 60px);
+    width:100%;
+    background-image:url(http://static1.squarespace.com/static/54f382d7e4b09389aa3b9d1e/t/558ad07de4b0e9f43df1e5bc/1435160712911/Great+Camp+Sagamore-8370.jpg?format=1500w);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+
+}
+
+
+.footer{
+    background:rgba(28,210,78,.4);
+    bottom:0px;
+    width:100%;
+    position:absolute;
+    height:150px;
+    float:left;
+    width:100%;
+    height: auto;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+    padding:0 10%;
+}
+
+.overlay{
+    position:absolute;
+    top:0px;
+    background:rgba(28,210,78,.4);
+    width:100%;
+    height:60px;
+    float:left;
+    width:100%;
+    border-top:1px solid black;
+    height: auto;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+
+.slide-link{
+    display:inline;
+    font-size:large;
+    width: auto;
+    height: 40px;
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    padding:15px 0;
+    color:white;
+    cursor:pointer;
+}
+
+.slide-link a{
+    color:white;
+
+}
+
+.slides{
+    background:rgba(0,0,0,.4);
+    top:90px;
+    height:50vh;
+    position:absolute;
+    z-index:5;
+    /*width:70vw;
+    height:60vh;
+    top:90px;
+    position:absolute;
+    margin:0 15vw;*/
+    background:rgba(255,255,255,.4);
+    border-radius:5px;
+}
+
+.stretcher {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
 }
 
 #top{
@@ -20,7 +102,7 @@ background: -o-linear-gradient(top, rgba(250,245,224,1) 0%, rgba(226,223,197,1) 
 background: -ms-linear-gradient(top, rgba(250,245,224,1) 0%, rgba(226,223,197,1) 71%, rgba(226,223,197,1) 100%);
 background: linear-gradient(to bottom, rgba(250,245,224,1) 0%, rgba(226,223,197,1) 71%, rgba(226,223,197,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#faf5e0', endColorstr='#e2dfc5', GradientType=0 );*/
-background-image:url(https://static1.squarespace.com/static/54f382d7e4b09389aa3b9d1e/t/558ad07de4b0e9f43df1e5bc/1435160712911/Great+Camp+Sagamore-8370.jpg?format=1500w);
+background-image:url(http://static1.squarespace.com/static/54f382d7e4b09389aa3b9d1e/t/558ad07de4b0e9f43df1e5bc/1435160712911/Great+Camp+Sagamore-8370.jpg?format=1500w);
 background-repeat:no-repeat;
 background-size:100% 100%;
 }
@@ -33,7 +115,7 @@ background-size:100% 100%;
 }
 
 #prev{
-    width: 10%;
+    width: 5%;
     height: 100%;
     display:inline-block;
     text-align:center;
@@ -48,7 +130,7 @@ background-size:100% 100%;
 #slides{
 
     float:left;
-    width:80%;
+    width:90%;
     height:100%;
 
 }
@@ -69,7 +151,7 @@ background-size:100% 100%;
 }
 
 #next{
-    width: 10%;
+    width: 5%;
     height: 100%;
     display:inline-block;
     text-align:center;
