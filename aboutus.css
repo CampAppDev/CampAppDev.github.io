@@ -24,7 +24,6 @@
     text-align: justify;
     -ms-text-justify: distribute-all-lines;
     text-justify: distribute-all-lines;
-    margin-bottom:5000px;
 }
 
 .team-member{
@@ -72,9 +71,7 @@ hr {
     height:300px;
     width:100%;
     background:white;
-    margin-top:50px;
     margin-top:calc(80px + 60px);
-    min-width:300px;
 }
 
 .picture{
@@ -121,11 +118,11 @@ hr {
 
 .left-col{
     background:red;
-    height:200px;
+    height:auto;
 
 }
 
 .right-col{
     background:blue;
-    height:2100px;
+    height:auto;
 }
