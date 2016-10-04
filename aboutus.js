@@ -23,7 +23,9 @@
         });
 
         $('.about').each(function () {
-
+            console.log(this);
+            console.log(this.id);
+            console.log(selected);
             var about = $(this);
             if (this.id == selected) {
                 if (!about.hasClass('current')) {
