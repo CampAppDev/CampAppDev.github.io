@@ -74,6 +74,7 @@ hr {
     margin-top:50px;
     margin-top:calc(80px + 60px);
     min-width:300px;
+    background:red;
 }
 
 .picture{
@@ -111,4 +112,20 @@ hr {
 
 .andrew{
     background:url("ares.PNG") no-repeat cover;
+}
+
+
+#description{
+    height:auto;
+}
+
+.left-col{
+    background:red;
+    height:200px;
+
+}
+
+.right-col{
+    background:blue;
+    height:2100px;
 }
