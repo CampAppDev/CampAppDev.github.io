@@ -28,7 +28,7 @@
 
 .team-member{
     display:inline;
-    font-size:2vmin;
+    font-size:1.5vw;
     width: auto;
     height: 40px;
     vertical-align: top;
@@ -36,6 +36,12 @@
     *display: inline;
     zoom: 1;
     padding:15px 0;
+}
+
+@media only screen and (max-width: 320px) {
+
+   .team-member { font-size: 10px; }
+
 }
 
 .team-member a{
