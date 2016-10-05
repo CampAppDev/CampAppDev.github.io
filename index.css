@@ -72,7 +72,7 @@
 }
 
 .slides{
-    background:rgba(0,0,0,.4);
+    /*background:rgba(0,0,0,.4);*/
     top:90px;
     height:50vh;
     position:absolute;
@@ -82,8 +82,9 @@
     top:90px;
     position:absolute;
     margin:0 15vw;*/
-    background:rgba(255,255,255,.4);
+    /*background:rgba(255,255,255,.4);*/
     border-radius:5px;
+    color:white;
 }
 
 .stretcher {
@@ -137,6 +138,12 @@ background-size:100% 100%;
 
 }
 
+.demo{
+    height:35vh;
+    width:25vw;
+    background:black;
+}
+
 .slide{
     width:80%;
     height:calc(75vh - 80px - 10vh);
@@ -150,6 +157,29 @@ background-size:100% 100%;
 
 .current{
     display:block;
+}
+
+.learn-btn{
+    /*color:#1CD24E;*/
+    color:white;
+    margin-top:45px;
+    text-align:center;
+    padding:15px 10px;
+    background:inherit;
+    border:5px solid white;
+    outline:5px white;
+    text-decoration: none;
+    display: block;
+    width:20%;
+}
+
+
+.learn-btn:hover{
+    background:white;
+    color:#1CD24E;
+    transition-duration: .7s;
+    cursor: pointer;    
+    text-decoration: none;
 }
 
 #next{
