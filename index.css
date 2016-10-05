@@ -169,9 +169,28 @@ background-size:100% 100%;
     border:3px solid white;
     text-decoration: none;
     display: block;
-    width:20%;
 }
 
+.contact-btn{
+    color:#1CD24E;
+    margin-top:45px;
+    text-align:center;
+    padding:15px 10px;
+    background:white;
+    border:3px solid white;
+    text-decoration: none;
+    display:block;
+}
+
+.contact-btn:hover{
+
+    background:rgba(255,255,255,.9);
+    color:#1CD24E;
+    transition-duration: .7s;
+    cursor: pointer;    
+    text-decoration: none;
+
+}
 
 .learn-btn:hover{
     background:white;
