@@ -138,9 +138,12 @@ background-size:100% 100%;
 }
 
 .demo{
-    height:35vh;
-    width:25vw;
+    height:25vh;
+    width:100%;
     background:black;
+    display: block;
+    text-align:center;
+    line-height:25vh;
 }
 
 .slide{
@@ -200,6 +203,7 @@ background-size:100% 100%;
     text-decoration: none;
     outline:3px solid white;
 }
+
 
 #next{
     width: 5%;
