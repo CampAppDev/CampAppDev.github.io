@@ -158,45 +158,47 @@ background-size:100% 100%;
     display:block;
 }
 
-.learn-btn{
+.contact-btn{
     /*color:#1CD24E;*/
     color:white;
     margin-top:45px;
     text-align:center;
     padding:15px 10px;
     background:inherit;
-    border:3px solid white;
+    outline:3px solid white;
     text-decoration: none;
     display: block;
 }
 
-.contact-btn{
+.learn-btn{
     color:#1CD24E;
     margin-top:45px;
     text-align:center;
     padding:15px 10px;
     background:white;
-    border:3px solid white;
+    outline:3px solid white;
     text-decoration: none;
     display:block;
 }
 
-.contact-btn:hover{
+.learn-btn:hover{
 
-    background:rgba(255,255,255,.9);
     color:#1CD24E;
     transition-duration: .7s;
     cursor: pointer;    
     text-decoration: none;
+    opacity:.75;
+    outline:3px solid white;
 
 }
 
-.learn-btn:hover{
+.contact-btn:hover{
     background:white;
     color:#1CD24E;
     transition-duration: .7s;
     cursor: pointer;    
     text-decoration: none;
+    outline:3px solid white;
 }
 
 #next{
