@@ -21,6 +21,14 @@
 }
 
 
+.slogan{
+    font-size:3vw;
+}
+
+.sub-slogan{
+    font-size: 2vw;
+}
+
 .footer{
     background:rgba(28,210,78,.4);
     bottom:0px;
@@ -72,7 +80,7 @@
 
 .slides{
     /*background:rgba(0,0,0,.4);*/
-    top:70px;
+    top:15px;
     height:50vh;
     position:absolute;
     z-index:5;
