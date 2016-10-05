@@ -146,12 +146,12 @@ background-size:100% 100%;
 }
 
 .demo{
-    height:35vh;
+    height:30vh;
     width:100%;
     background:black;
     display: block;
     text-align:center;
-    line-height:35vh;
+    line-height:30vh;
 }
 
 .slide{
