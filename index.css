@@ -22,11 +22,11 @@
 
 
 .slogan{
-    font-size:16px;
+    font-size:3.5vmin;
 }
 
 .sub-slogan{
-    font-size: 12px;
+    font-size: 1.5vmin;
 }
 
 .footer{
@@ -146,12 +146,12 @@ background-size:100% 100%;
 }
 
 .demo{
-    height:30vh;
+    height:40vh;
     width:100%;
     background:black;
     display: block;
     text-align:center;
-    line-height:30vh;
+    line-height:40vh;
 }
 
 .slide{
@@ -190,6 +190,7 @@ background-size:100% 100%;
     outline:3px solid white;
     text-decoration: none;
     display:block;
+
 }
 
 .learn-btn:hover{
