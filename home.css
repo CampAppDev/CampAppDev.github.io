@@ -101,12 +101,12 @@ body {
 .landing{
 
 /* W3C Markup */ 
-    background: linear-gradient(to right, #103900,#1CD24E, #103900);
+    background: linear-gradient(to right, #103900,#1CD24E 80%, #103900);
     background-repeat:  none;
   color: #fff;
   position: relative;
   z-index: 1;
-  height:400px;
+  height:300px;
 }
 
 .landing:after{
@@ -141,18 +141,16 @@ background: inherit;
 }
 
 .landing .learn > a:hover{
-    outline: 3px solid #1CD24E;
-    color:#1CD24E;
-    background:white;
-    transition-duration: .1;
+    opacity: .7;
+    transition-duration: .7;
 
     text-decoration: none;
 }
 
 h1{
-    font-size:  2em;
+    font-size:  2.5em;
 }
 
 h3{
-    font-size:  1em;
+    font-size:  1.75em;
 }
