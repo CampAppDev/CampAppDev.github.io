@@ -101,7 +101,7 @@ body {
 .landing{
 
 /* W3C Markup */ 
-    background: linear-gradient(to right, #8CFBDE, #103900);
+    background: linear-gradient(to right, #103900,#1CD24E, #103900);
     background-repeat:  none;
   color: #fff;
   position: relative;
@@ -124,7 +124,7 @@ background: inherit;
 }
 
 .landing .learn{
-    bottom:0;
+    bottom:10;
     position: absolute;
     text-align: center;
     width:100%;
@@ -150,5 +150,9 @@ background: inherit;
 }
 
 h1{
+    font-size:  2em;
+}
+
+h3{
     font-size:  1em;
 }
