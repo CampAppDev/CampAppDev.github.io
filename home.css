@@ -257,6 +257,7 @@ p{
     width:140px;
     font-weight: bold;
     background:rgba(255,255,255,.7);
+    margin:0px auto;
 }
 
 .learn-btn:hover{
