@@ -189,7 +189,7 @@ p{
 .box{
 
     position: absolute;
-    top:15%;
+    top:25%;
     margin:0 auto;
     width:90%;
 /*    background:rgba(0,0,0,.4);*/
@@ -236,4 +236,15 @@ p{
     color:white;
     font-size:1.5em;
     text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .title{
+        font-size: 2em;
+    }
+
+    .subtitle{
+        font-size: 1em;
+    }
 }
