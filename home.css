@@ -100,13 +100,18 @@ body {
 }
 .landing{
 
-/* W3C Markup */ 
-    background: linear-gradient(to right, #103900,#1CD24E 80%, #103900);
-    background-repeat:  none;
+    background:url(http://static1.squarespace.com/static/54f382d7e4b09389aa3b9d1e/t/558ad07de4b0e9f43df1e5bc/1435160712911/Great+Camp+Sagamore-8370.jpg?format=1500w) no-repeat center center fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
   color: #fff;
+  color:black;
   position: relative;
   z-index: 1;
-  height:300px;
+  background:#D5C67A;
+/*  background-image: linear-gradient(to bottom right, #8CFBDE 0%, #D5C67A 40%, #103900 100%);*/
+  height:500px;
 }
 
 .landing:after{
@@ -118,7 +123,7 @@ background: inherit;
   left: 0;
   position: absolute;
   right: 0;
-  transform: skewY(-5.5deg);
+  transform: skewY(-4.5deg);
   transform-origin: 100%;
   z-index: -1;
 }
@@ -153,4 +158,48 @@ h1{
 
 h3{
     font-size:  1.75em;
+}
+
+.information{
+    height:1000px;
+}
+
+.logo1{
+    margin:100 auto;
+    background:black;
+    width:64px;
+    height:64px;
+    border-radius: 5px;
+    text-align: center;
+    border:1px solid #1CD24E;
+    line-height: 64px;
+}
+
+.logo1 > span{
+    color:#1CD24E;
+    line-height: 64px;
+    font-size:35px;
+    display:block;
+}
+
+p{
+    font-size: 1.25em;
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+
+.photo{
+    width:100%;
+    height:400px;
+    border:1px solid black;
+}
+
+.row{
+    margin-bottom:50px;
 }
