@@ -200,9 +200,6 @@ p{
 
 }
 
-.box:hover{
-    border-left:3px solid #1CD24E;
-}
 
 .left{
     background:blue;
@@ -232,10 +229,10 @@ p{
 }
 
 .subtitle{
-    width:60%;
+    width:40%;
     color:white;
     font-size:1.5em;
-    text-align: center;
+    text-align: left;
 }
 
 @media only screen and (max-width: 768px) {
@@ -246,5 +243,25 @@ p{
 
     .subtitle{
         font-size: 1em;
+        width:60%;
     }
+}
+
+.learn-btn{
+    margin-top:10px;
+    padding:15px 15px;
+    border:3px solid white;
+    display: block;
+    color:#005377;
+    text-align: center;
+    width:140px;
+    font-weight: bold;
+    background:rgba(255,255,255,.7);
+}
+
+.learn-btn:hover{
+    background:white;
+    color:#005377;
+    text-decoration: none;
+    cursor: pointer;
 }
