@@ -255,26 +255,6 @@ p{
     margin:0 auto;
 }
 
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    
-    .box{
-       /* top:20px;*/
-    }
-
-    .title{
-        font-size: 1em;
-    }
-
-    .subtitle{
-        font-size: .75em;
-        width:100%;
-    }
-
-    .cards{
-        display:none;
-    }
-}
 
 .learn1{
     margin-top:50px;
@@ -581,4 +561,38 @@ h1,h2,h3,h4,h5{
     display: inline-block;
     font-size: 0;
     line-height: 0
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    
+    .box{
+       /* top:20px;*/
+    }
+
+    .title{
+        font-size: 1.25em;
+    }
+
+    .subtitle{
+        font-size: 1em;
+        width:100%;
+    }
+
+    .cards, .card{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    
+    .box{
+       min-width: 760px;
+    }
+
+    .learn-btn,.learn{
+        display: none;
+    }
+
 }
