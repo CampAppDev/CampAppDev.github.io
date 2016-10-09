@@ -189,7 +189,7 @@ p{
 .box{
 
     position: absolute;
-    top:80px;
+    top:40px;
     margin:0 auto;
     width:90%;
 /*    background:rgba(0,0,0,.4);*/
@@ -197,7 +197,9 @@ p{
     left:5%;
     border-left:3px solid white;
     padding:25px 0;
-
+    background:white;
+    background:url(https://wallpaperscraft.com/image/boat_canoe_lake_trees_111045_3840x2160.jpg) no-repeat center center fixed;
+    background:rgba(0,0,0,0.13);
 }
 
 
@@ -226,7 +228,7 @@ p{
     text-align: center;
     font-size: 3em;
     padding:15px 0;
-    color:#fff;
+    color:white;
      font-weight: bold;
 }
 
@@ -304,7 +306,7 @@ p{
     color:white;
 }
 
-.tab-btn:hover{
+.tab-btn:hover, .tab-btn:visited{
     color:white;
 
 }
