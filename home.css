@@ -242,15 +242,15 @@ p{
     /* For mobile phones: */
     
     .box{
-        top:15%;
+        top:80px;
     }
 
     .title{
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     .subtitle{
-        font-size: 1em;
+        font-size: .75em;
         width:60%;
     }
 }
@@ -298,4 +298,17 @@ p{
     display: block;
     float:left;
     padding:0 15px;
+}
+
+.tab-btn{
+    color:white;
+}
+
+.tab-btn:hover{
+    color:white;
+
+}
+
+.tabbed{
+    text-decoration: underline;
 }
