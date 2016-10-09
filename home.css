@@ -568,6 +568,8 @@ h1,h2,h3,h4,h5{
     
     .box{
        /* top:20px;*/
+       top:25%;
+       background:inherit;
     }
 
     .title{
@@ -649,4 +651,16 @@ h1,h2,h3,h4,h5{
     height:50%;
     width:100%;
     text-align: center;
+}
+
+ul{
+    list-style-position: inside;
+    text-align: center;
+}
+
+.card h2{
+    text-align: left;
+    color:#1CD24E;
+    font-weight: bolder;
+    font-size: 2em;
 }
