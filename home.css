@@ -165,7 +165,7 @@ h3{
 }
 
 .logo1{
-    margin:5px auto 10px auto;
+    margin:10px auto 10px auto;
     width:64px;
     height:64px;
     border-radius: 5px;
@@ -539,7 +539,7 @@ p{
 
 
 .cards{
-    height: 400px;
+    height: 80%;
 
     text-align: justify;
     -ms-text-justify: distribute-all-lines;
@@ -563,12 +563,12 @@ p{
     zoom: 1
     color:black;
     box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3), 0 17px 17px 0 rgba(0, 0, 0, 0.15);
-    background:rgba(0,0,0,.25);
+    /*background:rgba(0,0,0,.25);*/
     text-align: center;
     font-family: montserrat;
 }
 
-h1{
+h1,h2,h3,h4,h5{
     font-family: montserrat;
 }
 
