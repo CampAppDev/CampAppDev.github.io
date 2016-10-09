@@ -242,16 +242,16 @@ p{
     /* For mobile phones: */
     
     .box{
-        top:80px;
+        top:20px;
     }
 
     .title{
-        font-size: 1.5em;
+        font-size: 1em;
     }
 
     .subtitle{
-        font-size: .75em;
-        width:60%;
+        font-size: .5em;
+        width:100%;
     }
 }
 
