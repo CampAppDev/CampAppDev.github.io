@@ -270,6 +270,10 @@ p{
         font-size: .5em;
         width:100%;
     }
+
+    .cards{
+        display:none;
+    }
 }
 
 .learn1{
