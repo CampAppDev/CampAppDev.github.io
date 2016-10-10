@@ -563,98 +563,6 @@ h1,h2,h3,h4,h5{
     line-height: 0
 }
 
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    
-    .box{
-       /* top:20px;*/
-       top:25%;
-       background:inherit;
-    }
-
-    .title{
-        font-size: 1.5em;
-    }
-
-    .subtitle{
-        font-size: 1em;
-        width:100%;
-    }
-
-    .cards, .card{
-        display: none;
-    }
-
-    .bottom{
-        display: none;
-    }
-}
-
-@media only screen and (max-height: 800px) and (min-width:768px) {
-    /* For mobile phones: */
-    
-    .title{
-        font-size: 2em;
-    }
-
-    .subtitle{
-        font-size: 1.5em;
-    }
-
-    .logo1{
-        height:40px;
-        width:40px;
-    }
-
-    .logo1 span{
-        font-size: 20px;
-        line-height: 40px;
-    }
-
-    .card {
-        height:300px;
-    }
-
-    .card h2{
-        font-size: 1.75em;
-    }
-
-    .card h3{
-        font-size: 1.25em;
-    }
-
-    .box{
-       min-width: 760px;
-    }
-
-    .learn-btn,.learn{
-        display: none;
-    }
-
-    .scroll{
-        display: none;
-    }
-
-}
-
-@media only screen and (min-width: 768px) {
-    /* For mobile phones: */
-    
-    .box{
-       min-width: 760px;
-    }
-
-    .learn-btn,.learn{
-        display: none;
-    }
-
-    .scroll{
-        display: none;
-    }
-
-    
-
-}
 
 .scroll{
     position: absolute;
@@ -732,4 +640,98 @@ h1,h2,h3,h4,h5{
 
 .card a:hover{
     text-decoration: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    
+    .box{
+       /* top:20px;*/
+       top:25%;
+       background:inherit;
+    }
+
+    .title{
+        font-size: 1.5em;
+    }
+
+    .subtitle{
+        font-size: 1em;
+        width:100%;
+    }
+
+    .cards, .card{
+        display: none;
+    }
+
+    .bottom{
+        display: none;
+    }
+}
+
+@media only screen and (max-height: 800px) and (min-width:768px) {
+    /* For mobile phones: */
+    
+    .title{
+        font-size: 1.75em;
+    }
+
+    .subtitle{
+        font-size: 1.25em;
+    }
+
+    .logo1{
+        height:40px;
+        width:40px;
+    }
+
+    .logo1 span{
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .card {
+        height:300px;
+    }
+
+    .card h2{
+        font-size: 1.25em;
+    }
+
+    .card h3{
+        font-size: 1em;
+    }
+
+    .box{
+       min-width: 760px;
+    }
+
+    .learn-btn,.learn{
+        display: none;
+    }
+
+    .scroll{
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    
+    .box{
+       min-width: 760px;
+    }
+
+    .learn-btn,.learn{
+        display: none;
+    }
+
+    .scroll{
+        display: none;
+    }
+
+    
+
 }
