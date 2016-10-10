@@ -467,9 +467,8 @@ h1,h2,h3,h4,h5{
         display: none;
     }
 
-
     .landing{
-    background-attachment: fixed;
+        background-size: cover !important;
     }
 
 
