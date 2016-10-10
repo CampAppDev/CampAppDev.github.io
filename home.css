@@ -128,7 +128,7 @@ background: inherit;
   z-index: -1;
 }*/
 
-.landing .learn{
+/*.landing .learn{
     bottom:10;
     position: absolute;
     text-align: center;
@@ -143,7 +143,7 @@ background: inherit;
     color:#1CD24E;
     font-size: 1em;
     background:white;
-}
+}*/
 
 .landing .learn > a:hover{
     opacity: .7;
@@ -264,23 +264,23 @@ h3{
 .learn-btn{
     margin-top:10px;
     padding:15px 15px;
-    border:3px solid white;
     display: block;
     color:#005377;
     text-align: center;
     min-width:140px;
     width:100%;
     font-weight: bold;
-    background:rgba(255,255,255,.7);
+    background:#AB3428;
+    color:white;
     margin:0px auto;
 }
 
-.learn-btn:hover{
+/*.learn-btn:hover{
     background:white;
     color:#005377;
     text-decoration: none;
     cursor: pointer;
-}
+}*/
 
 .bottom{
     position:absolute;
