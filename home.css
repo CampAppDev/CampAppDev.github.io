@@ -631,7 +631,6 @@ h1,h2,h3,h4,h5{
     margin:0 auto;
     display: block;
     color:white;
-    border:3px solid #AB3428;
     background:#AB3428;
     position: absolute;
     bottom:5px;
@@ -703,8 +702,13 @@ h1,h2,h3,h4,h5{
         font-size: 1em;
     }
 
+    .card a{
+        font-size: .75em;
+    }
+
     .box{
        min-width: 760px;
+       height:auto;
     }
 
     .learn-btn,.learn{
@@ -713,6 +717,10 @@ h1,h2,h3,h4,h5{
 
     .scroll{
         display: none;
+    }
+
+    .bottom{
+        font-size: 12px;
     }
 
 }
