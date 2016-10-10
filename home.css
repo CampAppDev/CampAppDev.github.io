@@ -692,7 +692,6 @@ h1,h2,h3,h4,h5{
 
     .card {
         height:300px;
-        background:blue;
     }
 
     .card h2{
@@ -710,8 +709,8 @@ h1,h2,h3,h4,h5{
     .box{
        min-width: 760px;
        max-height:475;
-       background:red;
     }
+
 
     .learn-btn,.learn{
         display: none;
@@ -722,6 +721,8 @@ h1,h2,h3,h4,h5{
     }
 
     .bottom{
+        height:25px;
+        line-height: 25px;
         font-size: 12px;
     }
 
