@@ -532,6 +532,10 @@ h1,h2,h3,h4,h5{
 @media only screen and (min-width: 768px) {
     /* For mobile phones: */
     
+    .landing{
+        background-size: contain;
+    }
+
     .box{
        min-width: 760px;
     }
@@ -550,30 +554,4 @@ h1,h2,h3,h4,h5{
 
     
 
-}
-
-.image{
-     background:url(https://wallpaperscraft.com/image/boat_canoe_lake_trees_111045_3840x2160.jpg) no-repeat center center fixed;
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: 100% 100%;
-  color: #fff;
-    position: relative;
-  z-index: 1;
-  height:calc(100vh - 60px);
-  width:100%;
-  margin-top:60px;
-}
-
-.blue{
-    background:blue;
-    height:calc(100vh - 60px);
-    width:100%;
-}
-
-.red{
-    background:red;
-    height:calc(100vh - 60px);
-    width:100%;
 }
