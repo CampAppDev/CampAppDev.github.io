@@ -117,8 +117,8 @@ body {
 
     background:url(https://wallpaperscraft.com/image/boat_canoe_lake_trees_111045_3840x2160.jpg) no-repeat center center fixed;
     -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100%;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: 100% 100%;
   color: #fff;
     position: relative;
