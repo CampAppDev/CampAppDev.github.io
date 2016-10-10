@@ -645,17 +645,18 @@ h1,h2,h3,h4,h5{
     
     .box{
        /* top:20px;*/
-       top:25%;
+       top:5%;
        background:inherit;
     }
 
     .title{
-        font-size: 1.25em;
+        font-size: 1em;
     }
 
     .subtitle{
         font-size: 1em;
         width:100%;
+        margin-top:55%;
     }
 
     .cards, .card{
