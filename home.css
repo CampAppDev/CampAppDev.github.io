@@ -5,7 +5,6 @@ img {
     max-height: 100%;
 }
 
- html{height:100%,width:100%}
 body {
     font-family:montserrat;
 }
@@ -468,7 +467,10 @@ h1,h2,h3,h4,h5{
     .landing{
     background-size: 100%;
     width:100%;
+    background-attachment: fixed;
     }
+
+
 }
 
 @media only screen and (max-height: 900px) and (min-width:768px) {
