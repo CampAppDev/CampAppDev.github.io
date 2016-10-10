@@ -111,6 +111,7 @@ body {
     height:calc(100vh - 60px);
     color:black;
     margin-top:60px;
+    width:100vw;
 }
 .landing{
 
@@ -429,7 +430,6 @@ h1,h2,h3,h4,h5{
 
 .mobile{
     background:black;
-    height:100vh;
 }
 
 .mobile h1{
