@@ -468,7 +468,7 @@ h1,h2,h3,h4,h5{
     }
 
     .landing{
-        background-size: cover !important;
+        background-size: 100% 100% !important;
     }
 
 
