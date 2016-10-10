@@ -396,7 +396,11 @@ h1,h2,h3,h4,h5{
 }
 
 .mobile{
+    display: block;
+}
 
+.mobile .container{
+    padding:0 5%;
 }
 
 .mobile h1{
@@ -407,11 +411,12 @@ h1,h2,h3,h4,h5{
 .mobile > .logo1{
     color:#1CD24E;
     border-color:black;
+    color:black;
     margin:10px auto 10px auto;
 }
 
 .mobile .logo1 > span{
-    color:#1CD24E;;
+    color:black;
 }
 
 
