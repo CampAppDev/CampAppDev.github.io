@@ -709,7 +709,8 @@ h1,h2,h3,h4,h5{
 
     .box{
        min-width: 760px;
-       max-height:600;
+       max-height:500;
+       background:red;
     }
 
     .learn-btn,.learn{
