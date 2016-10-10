@@ -669,15 +669,15 @@ h1,h2,h3,h4,h5{
     }
 }
 
-@media only screen and (max-height: 800px) and (min-width:768px) {
+@media only screen and (max-height: 700px) and (min-width:768px) {
     /* For mobile phones: */
     
     .title{
-        font-size: 1.75em;
+        font-size: 1.25em;
     }
 
     .subtitle{
-        font-size: 1.25em;
+        font-size: 1em;
     }
 
     .logo1{
@@ -695,11 +695,11 @@ h1,h2,h3,h4,h5{
     }
 
     .card h2{
-        font-size: 1.25em;
+        font-size: 1em;
     }
 
     .card h3{
-        font-size: 1em;
+        font-size: .85em;
     }
 
     .card a{
