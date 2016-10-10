@@ -284,12 +284,13 @@ h3{
 
 .bottom{
     position:absolute;
-    bottom:0;
+    bottom:5px;
     color:white;
     height:40px;
     line-height:40px;
     padding:0 5%;
 }
+
 
 .bottom > ul{
     list-style: none;
@@ -300,6 +301,7 @@ h3{
     display: block;
     float:left;
     padding:0 15px;
+    color:white;
 }
 
 .tab-btn{
@@ -309,10 +311,6 @@ h3{
 .tab-btn:hover, .tab-btn:visited{
     color:white;
 
-}
-
-.tabbed{
-    text-decoration: underline;
 }
 
 
@@ -588,6 +586,33 @@ h1,h2,h3,h4,h5{
     }
 }
 
+@media only screen and (max-height: 1000px) and (min-width:768px) {
+    /* For mobile phones: */
+    
+    .box{
+       /* top:20px;*/
+       top:25%;
+       background:inherit;
+    }
+
+    .title{
+        font-size: 1em;
+    }
+
+    .subtitle{
+        font-size: .5em;
+        width:100%;
+    }
+
+    .cards, .card{
+        display: none;
+    }
+
+    .card{
+        background:blue;
+    }
+}
+
 @media only screen and (min-width: 768px) {
     /* For mobile phones: */
     
@@ -639,7 +664,7 @@ h1,h2,h3,h4,h5{
     transform: rotate(45deg);
 }
 
-.chevron.bottom:before {
+.chevron.down:before {
     top:0;
     transform: rotate(135deg);
 }
@@ -655,7 +680,7 @@ h1,h2,h3,h4,h5{
     text-align: center;
 }
 
-ul{
+.card ul{
     list-style-position: inside;
     text-align: center;
 }
