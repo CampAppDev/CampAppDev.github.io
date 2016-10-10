@@ -22,3 +22,7 @@ nav{
 	position:fixed;
 	top:0px;
 }
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+	background:url(https://wallpaperscraft.com/image/boat_canoe_lake_trees_111045_3840x2160.jpg) no-repeat center center fixed;
+}
