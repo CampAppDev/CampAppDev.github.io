@@ -690,6 +690,10 @@ h1,h2,h3,h4,h5{
         line-height: 40px;
     }
 
+    .cards {
+        padding-top:15px;
+    }
+
     .card {
         height:300px;
     }
