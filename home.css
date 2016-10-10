@@ -464,6 +464,13 @@ h1,h2,h3,h4,h5{
     .bottom{
         display: none;
     }
+
+    .landing{
+    -webkit-background-size: contain;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+    }
 }
 
 @media only screen and (max-height: 900px) and (min-width:768px) {
@@ -532,9 +539,6 @@ h1,h2,h3,h4,h5{
 @media only screen and (min-width: 768px) {
     /* For mobile phones: */
     
-    .landing{
-        background-size: contain;
-    }
 
     .box{
        min-width: 760px;
