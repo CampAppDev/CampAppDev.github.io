@@ -279,35 +279,28 @@ h3{
 
 }
 
-
 .cards{
-    height: 10%;
-
     text-align: justify;
     -ms-text-justify: distribute-all-lines;
     text-justify: distribute-all-lines;
-
-    display: block;
-    margin-left: auto; 
-    margin-right: auto;
-    width:90%;
     margin-top:20px;
+    left:5%;
+    width:90%;
+    position: relative;
 }
 
 .card{
-    width: 30%;
-    height: 400px;
+    min-height:500px;
+    width:30%;
     vertical-align: top;
     display: inline-block;
     *display: inline;
-    zoom: 1
-    color:black;
-    /*box-shadow: 55px 27px 55px 27px rgba(0, 0, 0, 0.3);*/
-    /*background:rgba(0,0,0,.25);*/
+    zoom: 1;
     text-align: center;
     font-family: montserrat;
+    color:white;
     position: relative;
-    /*border:2px solid white;*/
+    padding:0 15px;
 }
 
 h1,h2,h3,h4,h5{
@@ -386,14 +379,15 @@ h1,h2,h3,h4,h5{
 
 .card a{
     padding:10px 5px;
-    width:40%;
+    width:60%;
     margin:0 auto;
     display: block;
     color:white;
     background:#AB3428;
     position: absolute;
     bottom:5px;
-    left:30%;
+    left:20%;
+    margin-top:50px;
 }
 
 .card a:hover{
@@ -449,8 +443,8 @@ h1,h2,h3,h4,h5{
     background-size:cover;
 }
 
-#dataPage{
-    background:green;
+#mobile{
+    background:white;
     height:calc(100vh - 60px);
 }
 
@@ -501,6 +495,9 @@ h1,h2,h3,h4,h5{
         background:url("photos/background-sm.jpg") no-repeat center center fixed;
         background-size: cover !important;
     }
+    .mobile{
+        padding-top:25px;
+    }
 
 
 }
@@ -528,10 +525,11 @@ h1,h2,h3,h4,h5{
 
     .cards {
         padding-top:0px;
+        min-height:450px;
     }
 
     .card {
-        height:300px;
+        min-height:350px;
     }
 
     .card h2{
@@ -566,6 +564,10 @@ h1,h2,h3,h4,h5{
         font-size: 12px;
     }
 
+    #mobile{
+        display: none;
+    }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -588,6 +590,8 @@ h1,h2,h3,h4,h5{
         display: none;
     }
 
-    
+    #mobile{
+        display: none;
+    }
 
 }
