@@ -329,6 +329,7 @@ h1,h2,h3,h4,h5{
     width:100%;
     text-align: center;
     line-height: 40px;
+    color:white;
 
 }
 
@@ -459,6 +460,11 @@ h1,h2,h3,h4,h5{
     background:rgba(0,0,0,.3);
 }
 
+.sign-up{
+    margin-top:50px;
+    margin:50px 5% 0 5%;
+}
+
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
@@ -480,6 +486,7 @@ h1,h2,h3,h4,h5{
         width:100%;
         margin-top:25%;
         padding:0 5%;
+        position: relative;
     }
 
     .cards, .card{
