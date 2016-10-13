@@ -453,6 +453,12 @@ h1,h2,h3,h4,h5{
     height:calc(100vh - 60px);
 }
 
+.overlay{
+    height:100%;
+    width:100%;
+    background:rgba(0,0,0,.3);
+}
+
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
