@@ -22,10 +22,15 @@
 }
 
 .our-vision .overlay{
-    background:rgba(28,210,78,.5);
+    background:rgba(171,52,40,.5);
     height:100%;
     width:100%;
     text-align:center;
+}
+
+.our-vision .slogan{
+    font-size: 1.5em;
+    padding-top:40px;
 }
 
 h1,h2,h3,h4,h5{
