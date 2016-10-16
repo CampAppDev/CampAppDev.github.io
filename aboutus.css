@@ -42,19 +42,31 @@
     width:100%;
     height:50px;
     line-height: 50px;
+    margin-top:150px;
+    text-align: center;
+    padding:0 20%;
+
 }
 .our-vision #beta{
     color:white;
     border:1px solid white;
-    /*position:relative;
-    bottom:140px;*/
-    margin:0 auto;
+    display: block;
     width:200px;
-    padding:10px 25px;
+    height:100%;
+    float:left;
 
 }
 
-.our-vision #beta:hover{
+.our-vision #product{
+    color:white;
+    border:1px solid white;
+    display: block;
+    width:200px;
+    height:100%;
+    float:right;
+}
+
+.our-vision #beta:hover, .our-vision #product:hover{
     background:white;
     color:rgb(171,52,40);
     text-decoration: none;
