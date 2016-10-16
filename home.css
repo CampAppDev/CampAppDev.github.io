@@ -412,6 +412,10 @@ h1,h2,h3,h4,h5{
     margin-bottom: 50px;
 }
 
+.mobile a:hover{
+    text-decoration: none !important;
+}
+
 .mobile h1{
     color:#1CD24E;
     text-align: center;
@@ -542,6 +546,10 @@ h1,h2,h3,h4,h5{
 
     .card a{
         font-size: .75em;
+    }
+
+    .card a:hover{
+        text-decoration: none;
     }
 
     .box{

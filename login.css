@@ -12,12 +12,11 @@
     position:relative;
     top:20px;
     width:100%;
-    font-size:x-large;
     height:auto;
 }
 
 .login-screen h4{
-    font-size:larger;
+    font-size:x-large;
 }
 
 .control-label{
@@ -28,6 +27,10 @@
     border-radius:0;
     text-align:center;
     width:20em;
+}
+
+.beta{
+    width:30em;
 }
 .row{
     

@@ -162,10 +162,11 @@ hr {
 
     .mobile-title{
         width:100%;
-        text-align: center;
-        font-size: 3em;
-        color:#1CD24E;
-        margin-top:10px;
+        text-align: left;
+        font-size: 1.5em;
+        color:black;
+        margin-top:15px;
+        border-bottom:1px solid black;
     }
 
 }
