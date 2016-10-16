@@ -139,6 +139,10 @@ body {
     text-decoration:none;
 }
 
+a:visited{
+    text-decoration: none;
+    font-color:inherit;
+}
 
 /*@media (max-width: 960px) {
   #navbar #login     { display: none; }
