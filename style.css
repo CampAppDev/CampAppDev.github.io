@@ -141,7 +141,7 @@ body {
 
 a:visited{
     text-decoration: none;
-    font-color:inherit;
+    font-color:white;
 }
 
 /*@media (max-width: 960px) {
