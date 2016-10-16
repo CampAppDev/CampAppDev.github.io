@@ -111,6 +111,10 @@ hr {
     background:url("ares.PNG") no-repeat cover;
 }
 
+.andrew:hover{
+    background:blue;
+}
+
 
 #description{
     height:auto;
@@ -123,4 +127,45 @@ hr {
 
 .right-col{
     height:auto;
+}
+
+.mobile{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .aboutus{
+        display:none;
+    }
+
+    .mobile{
+        top:60px;
+        position: absolute;
+        display: block;
+        width:100%;
+        padding:0 10%;
+
+    }
+
+    .about{
+        display: block;
+        float:left;
+        height:auto;
+        margin-top:50px;
+    }
+
+    hr{
+        color:black;
+        border-color:black;
+    }
+
+    .mobile-title{
+        width:100%;
+        text-align: center;
+        font-size: 3em;
+        color:#1CD24E;
+        margin-top:10px;
+    }
+
 }

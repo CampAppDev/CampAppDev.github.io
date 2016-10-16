@@ -290,7 +290,7 @@ h3{
 }
 
 .card{
-    min-height:500px;
+    min-height:450px;
     width:30%;
     vertical-align: top;
     display: inline-block;
@@ -506,7 +506,7 @@ h1,h2,h3,h4,h5{
     /* For mobile phones: */
     
     .title{
-        font-size: 1.25em;
+        font-size: 1.35em;
     }
 
     .subtitle{
@@ -525,7 +525,7 @@ h1,h2,h3,h4,h5{
 
     .cards {
         padding-top:0px;
-        min-height:450px;
+        min-height:350px;
     }
 
     .card {
@@ -592,6 +592,22 @@ h1,h2,h3,h4,h5{
 
     #mobile{
         display: none;
+    }
+
+    .card {
+        min-height:450px;
+    }
+
+    .card h2{
+        font-size: 1.25em;
+    }
+
+    .card h3{
+        font-size: 1em;
+    }
+
+    .card a{
+        font-size: 1em;
     }
 
 }
