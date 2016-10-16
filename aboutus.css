@@ -14,6 +14,15 @@
 .our-vision{
     background:#AB3428;
     height:400px;
+    color:white;
+}
+
+.our-vision #title{
+    color:white !important;
+}
+
+.our-vision .team{
+    border-color:white;
 }
 
 .container{
