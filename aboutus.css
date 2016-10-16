@@ -13,7 +13,7 @@
 .our-vision{
     /*margin-top:20px;*/
     background:#AB3428;
-    height:600px;
+    height:500px;
     color:white;
     background-image: linear-gradient(to top left, #5C0000 0%, #AB3428 55%);
     font-family: montserrat;
@@ -22,7 +22,7 @@
 }
 
 .our-vision .overlay{
-    background:rgba(171,52,40,.6);
+    background:rgba(28,210,78,.5);
     height:100%;
     width:100%;
     text-align:center;
