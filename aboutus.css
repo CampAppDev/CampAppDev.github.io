@@ -121,8 +121,20 @@ hr {
 }
 
 .left-col{
-    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
 
+}
+
+.left-col img{
+    flex-shrink: 0;
+    /*min-width: 100%;
+    min-height: 100%;*/
+    object-fit: cover;
+    height:300px;
+    width:300px;
 }
 
 .right-col{

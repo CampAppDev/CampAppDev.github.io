@@ -85,6 +85,13 @@
     }
 
 
-
+    $('.left-col img').bind('mouseenter mouseleave', function() {
+    $('.left-col img').fadeTo(100,0.5, function() {
+        $(this).attr({
+            src: $(this).attr('camp-src') 
+            , 'camp-src': $(this).attr('src') 
+        });
+    }).fadeTo(100,1);
+});
 
 });
