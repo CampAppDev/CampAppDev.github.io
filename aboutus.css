@@ -17,12 +17,12 @@
     color:white;
     background-image: linear-gradient(to top left, #5C0000 0%, #AB3428 55%);
     font-family: montserrat;
-    background:url('photos/tset.jpg') no-repeat center center;
+    background:url('photos/ourteam.jpg') no-repeat center center;
     background-size:100% 100%;
 }
 
 .our-vision .overlay{
-    background:rgba(0,255,0,.4);
+    background:rgba(171,52,40,.6);
     height:100%;
     width:100%;
     text-align:center;
