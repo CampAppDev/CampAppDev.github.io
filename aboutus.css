@@ -6,14 +6,18 @@
 
     height:calc(100vh - 80px);
     position:absolute;
-    top:80px;
+    top:60px;
     width:100%;
     background:white;
-    padding:0 10%;
 }
 
+.our-vision{
+    background:#AB3428;
+    height:400px;
+}
 
 .container{
+    padding:0 10%;
 }
 
 .team{
