@@ -72,7 +72,7 @@ html, body {
 .slogan{
 	color:white;
 	text-align: center;
-	font-size:3vw;
+	font-size:36px;
 	z-index:6000;
 	margin-top:300px;
 }
@@ -83,19 +83,22 @@ html, body {
 	padding:0 15%;
 	width:50%;
 	margin:20px auto;
+	font-size:24px;
 }
 
 .page-title{
 	text-align: center;
-	font-size:3vw;
+	font-size:30px;
 	color:white;
 	margin-top:150px;
 }
 
 .info-box{
 	min-height: 300px;
-	height:calc(80vh - 300px);
-	width:30%;
+	height:calc(65vh);
+	max-height: 550px;
+	max-width: 750px;
+	width:60%;
 	color:black;
 	background:white;
 	margin:20px auto;
@@ -115,6 +118,7 @@ html, body {
     text-align: center;
     line-height: 40px;
     color:white;
+    font-size:20px;
 
 }
 
