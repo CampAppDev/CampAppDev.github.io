@@ -72,9 +72,9 @@ html, body {
 .slogan{
 	color:white;
 	text-align: center;
-	font-size:36px;
+	font-size:24px;
 	z-index:6000;
-	margin-top:300px;
+	margin-top:150px;
 }
 
 .detail{
@@ -83,12 +83,12 @@ html, body {
 	padding:0 15%;
 	width:50%;
 	margin:20px auto;
-	font-size:24px;
+	font-size:16px;
 }
 
 .page-title{
 	text-align: center;
-	font-size:30px;
+	font-size:26px;
 	color:white;
 	margin-top:150px;
 }
