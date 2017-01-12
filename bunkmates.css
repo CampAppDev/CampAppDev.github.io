@@ -26,14 +26,24 @@ html, body {
 	background-size: cover;
 }
 
+#section2{
+	background:#1CD24E;
+}
+
+#section3{
+    background:#387EA5;
+}
+
+#section4{
+	background:#AB3428;
+}
+
 .navbar{
 	background:white;
 	width:100%;
-	height:60px;
-	position: fixed;
 	top:0;
+	position: fixed;
 	z-index: 9999;
-	line-height:40px;
 	padding:0 15%;
 	background:none;
 	font-size:2em;
@@ -62,7 +72,7 @@ html, body {
 .slogan{
 	color:white;
 	text-align: center;
-	font-size:2vw;
+	font-size:3vw;
 	z-index:6000;
 	margin-top:300px;
 }
@@ -73,6 +83,28 @@ html, body {
 	padding:0 15%;
 	width:50%;
 	margin:20px auto;
+}
+
+.page-title{
+	text-align: center;
+	font-size:3vw;
+	color:white;
+	margin-top:150px;
+}
+
+.info-box{
+	min-height: 300px;
+	height:calc(80vh - 300px);
+	width:30%;
+	color:black;
+	background:white;
+	margin:20px auto;
+	border-radius: 2px;
+	box-shadow: 0 0px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    text-align: center;
+    padding-top:5px;
+
 }
 
 .scroll{
