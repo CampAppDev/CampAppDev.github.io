@@ -9,8 +9,20 @@ html, body {
   color: white;
 }
 
-#page1 { background: url(photos/clc.jpg)}
-#page3 { background: #5CA48D; }
+#page1 { 
+  background: url(photos/clc.jpg) no-repeat center center;
+  background-size:cover;
+  height:100vh;
+  width:100vw;
+}
+
+#page2{
+    height:100vh;
+  width:100vw;
+}
+
+#page3 { background: #5CA48D;    height:100vh;
+  width:100vw;}
 
 .wrapper {
   display: table;
@@ -60,4 +72,55 @@ span.slogan{
 
 .page-detail h2{
   text-align:center;
+}
+
+.scroll{
+    position: absolute;
+    bottom:0;
+    height:80px;
+    width:100%;
+    text-align: center;
+    line-height: 40px;
+    color:white;
+
+}
+
+.chevron::before {
+    border-style: solid;
+    border-width: 0.25em 0.25em 0 0;
+    content: '';
+    display: inline-block;
+    height: 0.80em;
+    left: 0.15em;
+    position: relative;
+    top: 0.15em;
+    transform: rotate(-45deg);
+    vertical-align: top;
+    width: 0.8em;
+}
+
+.chevron{
+    text-align: center;
+    width:100%;
+}
+
+.chevron.right:before {
+    left: 0;
+    transform: rotate(45deg);
+}
+
+.chevron.down:before {
+    top:0;
+    transform: rotate(135deg);
+}
+
+.chevron.left:before {
+    left: 0.25em;
+    transform: rotate(-135deg);
+}
+
+.scroll-label{
+    height:50%;
+    width:100%;
+    text-align: center;
 }

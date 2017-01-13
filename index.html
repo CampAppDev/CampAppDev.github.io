@@ -1,61 +1,309 @@
-<html>
-	<head>
-		<script type="text/javascript" src="jquery.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.js"></script>
-		<script type="text/javascript" src="bunkmates.js"></script>
-		<link type="text/css" rel="stylesheet" href="bunkmates.css" />
-		<meta content="width=device-width, initial-scale=1.0" name="viewport">
-	</head>
-	<body>
-		<div class="wrapper tabled">
-  <div class="stage" id="page1">
-    <div class="middled">
-      <h1><span class="thin">Bunk</span><span class="thick">Mates</span></h1>
-      <span class="thin slogan">MEMORIES AREN'T MADE IN AN OFFICE</span>
-      <p>try to resize the window</p>
-    </div>
-  </div>
-</div>
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <title>BunkMates</title>
+  <meta name="keywords" content="bunkmates app camp software saas">
+  <meta name="description" content="BunkMates is a web based front office software solution for summer camps">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  
+  <meta property="og:title" content="">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="">
+	<meta property="og:site_name" content="">
+	<meta property="og:description" content="">
 
-<div class="wrapper tabled">
-  <div class="page-content" id="page2">
-    <div class="page-title">
-      GROUPS
-    </div>
-    <div class="page-detail">
-      <h2>Preference based group assignment made
-                        easy</h2><label style="font-weight:bold">The
-                        Problem</label>
-      <p>As former campers we have felt the disappointment of repeatedly not getting into our first choice of camp electives and as former staff members we understand the painstaking time and effort spent organizing these groups. There was never an easy
-        way to make every camper happy when it came to putting them in groups based on their preferences.</p><label style="font-weight:bold">Our Solution</label>
-      <p>Our unique software solution utilizes cutting edge mathematics to deliver an optimal solution to the group assignment problem based on input parameters. Our intuitive interface simplifies the complex mathematics behind the algorithms we use so that
-        any staff member can use it. Our proprietary algorithm prioritizes campers that did not get their first choice in the previous assignment, ensuring all campers get a chance to be placed into their primary group. By using our product, camps can
-        save the tremendous amount of time and effort spent on organization and instead spend it creating more memorable positive experiences for campers.
-      </p>
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900|Montserrat:400,700' rel='stylesheet' type='text/css'>
+  
 
-      <label style="font-weight:bold">Features</label>
-      <ul style="list-style-position:inside;padding:0 25px">
-        <li>Instantly assigns campers to groups based on pre-selected preferences</li>
-        <li>Allows setting of minimum and maximum group sizes
-        </li>
-        <li>Allows for pairing or seperation of specific campers
-        </li>
-        <li>Ensures campers that did not get their first choice will be prioritized in the next assignment
-        </li>
-      </ul>
-    </div>
-  </div>
-</div>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
 
-<div class="wrapper tabled">
-  <div class="stage" id="page3">
-    <div class="middled">
-      <h1><span class="thin">Bunk</span><span class="thick">Mates</span></h1>
-      <span class="thin slogan">MEMORIES AREN'T MADE IN AN OFFICE</span>
-      <p>try to resize the window</p>
-    </div>
-  </div>
-</div>
-	</body>
+  <script src="js/modernizr-2.7.1.js"></script>
+  
+</head>
 
+<body>
+
+    
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="logo" href="index.html"><img src="" alt="">BunkMates</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#pricing" class="scroll">Pricing</a></li>
+            <li><a href="#">Sign in</a></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+        
+    <header>
+      <div class="container">
+        <div class="row nav-row">
+          <div class="col-xs-6">
+            <a class="logo" href="index.html"><img src="" alt="">BunkMates</a>
+          </div>
+          <div class="col-xs-6 signin text-right navbar-nav">
+            <a href="#pricing" class="scroll">Pricing</a>&nbsp; &nbsp;<a href="#">Sign in</a>
+          </div>
+        </div>
+        
+        <div class="row header-info">
+          <div class="col-sm-10 col-sm-offset-1 text-center">
+            <h1 class="wow fadeIn">MEMORIES AREN'T MADE IN AN OFFICE</h1>
+            <br />
+            <p class="lead wow fadeIn" data-wow-delay="0.5s">BunkMates allows camps to save the time and effort spent on logistics and
+                  instead spend it creating more memorable experiences for campers
+            </div></p>
+              
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+                <div class="row">
+                  <div class="col-xs-6 text-right wow fadeInUp" data-wow-delay="1s">
+                    <a href="#be-the-first" class="btn btn-secondary btn-lg scroll">Learn More</a>
+                  </div>
+                  <div class="col-xs-6 text-left wow fadeInUp" data-wow-delay="1.4s">
+                    <a href="#invite" class="btn btn-primary btn-lg scroll">Request Invite</a>
+                  </div>
+                </div><!--End Button Row-->  
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    <div class="mouse-icon hidden-xs">
+				<div class="scroll"></div>
+			</div>
+    
+    <section id="be-the-first" class="pad-xl">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2 text-center margin-30 wow fadeIn" data-wow-delay="0.6s">
+            <h2>An intuitive front office software suite for camps</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipis.</p>
+          </div>
+        </div>
+        
+        <div class="iphone wow fadeInUp" data-wow-delay="1s">
+	        <img src="img/iphone.png">
+        </div>
+      </div>
+    </section>
+    
+    <section id="main-info" class="pad-xl">
+	    <div class="container">
+		    <div class="row">
+			    <div class="col-sm-4 wow fadeIn" data-wow-delay="0.4s">
+				    <hr class="line purple">
+				    <h3>GROUPS</h3>
+            <p><b>Fair preference based assignment</b></p>
+				    <p> Our group assignment algorithm remembers which campers didn't get their
+                    top choices and prioritizes them in the next solution. Campers love when
+                    they get their first choice!</p>
+			    </div>
+			    <div class="col-sm-4 wow fadeIn" data-wow-delay="0.8s">
+				    <hr  class="line blue">
+				    <h3>TEAMS</h3>
+            <p><b>Competitive team generation</b></p>
+				    <p>Making fair teams has never been easier with our intuitive interface.
+                    Color Wars and tournaments will be easy for you and fun for the
+                    kids!</p>
+			    </div>
+			    <div class="col-sm-4 wow fadeIn" data-wow-delay="1.2s">
+				    <hr  class="line yellow">
+				    <h3>DOCS</h3>
+            <p><b>Retreivable program storage</b></p>
+				    <p> Our solution keeps track of programs that work well for your camp so you
+                    don't have to. No more documents spread across multiple
+                    computers!</p>
+			    </div>
+		    </div>
+	    </div>
+    </section>
+        
+        
+    <!--Pricing-->
+    <section id="pricing" class="pad-lg">
+      <div class="container">
+        <div class="row margin-40">
+          <div class="col-sm-8 col-sm-offset-2 text-center">
+            <h2 class="white">Subscription Types</h2>
+          </div>
+        </div>
+        
+        <div class="row margin-50">
+          
+          <div class="col-sm-4 pricing-container wow fadeInUp" data-wow-delay="1s">
+            <br />
+            <ul class="list-unstyled pricing-table text-center">
+    					<li class="headline"><h3 class="white">Standard</h3></li>
+    					<li class="price"><div class="amount">$5<small>/camper</small></div></li>
+    					<li class="info">For camps that need basic access</li>
+    					<li class="features first">Access to Groups, Teams and Docs</li>
+    					<li class="features">20 Profiles per App</li>
+    					<li class="features">Other info</li>
+    					<li class="features last btn btn-secondary btn-wide"><a href="#">Get Started</a></li>
+    				</ul>
+          </div>
+          
+           <div class="col-sm-4 pricing-container wow fadeInUp" data-wow-delay="0.4s">
+            <ul class="list-unstyled pricing-table active text-center">
+    					<li class="headline"><h3 class="white">Development Partner</h3></li>
+    					<li class="price"><div class="amount">$8<small>/camper</small></div></li>
+    					<li class="info">2 row section for you package information. You can include all details or icons</li>
+    					<li class="features first">Access to Groups, Teams and Docs</li>
+    					<li class="features">Unlimited Profiles per App</li>
+    					<li class="features">Feature recommendation and custom implementations</li>
+    					<li class="features">Other info</li>
+    					<li class="features last btn btn-secondary btn-wide"><a href="#">Get Started</a></li>
+    				</ul>
+          </div>
+          
+          <div class="col-sm-4 pricing-container wow fadeInUp" data-wow-delay="1.3s">
+            <br />
+            <ul class="list-unstyled pricing-table text-center">
+    					<li class="headline"><h3 class="white">Premium</h3></li>
+    					<li class="price"><div class="amount">$6<small>/camper</small></div></li>
+    					<li class="info">For camps that </li>
+    					<li class="features first">Access to Groups, Teams and Docs</li>
+    					<li class="features">100 Profiles per App</li>
+    					<li class="features">BunkMates specialists available to personalize each app to fit your needs</li>
+    					<li class="features last btn btn-secondary btn-wide"><a href="#">Get Started</a></li>
+    				</ul>
+          </div>
+          
+        </div>
+        
+      </div>
+    </section>
+    
+    
+    <section id="invite" class="pad-lg light-gray-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2 text-center">
+            <i class="fa fa-envelope-o margin-40"></i>
+            <h2 class="black">Sign up for beta</h2>
+            <br />
+            <p class="black">Enter your email below to get exclusive access</p>
+            <br />
+            
+            <div class="row">
+              <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+                <form role="form">
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="sample@youremail.com">
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-lg">Request Invite</button>
+                </form>
+              </div>
+            </div><!--End Form row-->
+
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <section id="press" class="pad-sm">
+      <div class="container">
+        <div class="row margin-30 news-container">
+          <h2 class="black text-center">Our Team</h2>
+          <h4 class="black text-center">We are four former campers trying to make camps better through technology</h4>
+                <p class="text-center">Our mission is to provide a better camp experience for camps and campers using software solutions</p>
+
+                <h3 style="padding:0 15%">Who We Are</h3>
+                <p style="padding:0 15%; margin-bottom:20px;">
+                    Growing up as campers at Crane Lake Camp together, we have always felt a strong connection to camp
+                    as it was such a positive experience for us growing up. This connection has grown into a passion for
+                    helping camps provide the best experience possible for their campers. We hope that BunkMates can be
+                    used to keep counselors out of the office so that they can spend time creating positive memories
+                    for campers.
+                </p>
+          <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow fadeInLeft" data-wow-delay="0.8s">
+            <a href="#" target="_blank">
+            <img class="news-img pull-left" src="img/ar.png" alt="Andrew Resnikoff">
+            <p class="black">                           Andrew came up with the idea for <span style="color:#1cd24e">BunkMates</span> in the spring of 2016 while still
+                           an undergraduate at Carnegie Mellon University. He realized that a lot of the mathematics and computer science
+                           that he was learning in his classes could be applied to problems he remembered facing in his many summers
+                           as both a counselor and a camper at Crane Lake Camp. After validating his ideas with a couple hundred lines
+                           of code, Andrew decided to try to turn this idea into a reality. He contacted three of his friends from Crane Lake
+                           and the four of them would go on to create what is now known as <span style="color:#1cd24e">BunkMates</span>
+          </div>
+        </div>
+        
+        <div class="row margin-30 news-container">
+          <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow fadeInLeft" data-wow-delay="1.2s">
+            <a href="#" target="_blank">
+            <img class="news-img pull-left" src="img/jake.png" alt="Forbes">
+            <p class="black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra orci ut. <br /> 
+            <small><em>Forbes - Feb 25, 2015</em></small></p>
+            </a>
+          </div>
+        </div>
+
+         <div class="row margin-30 news-container">
+          <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow fadeInLeft" data-wow-delay="1.2s">
+            <a href="#" target="_blank">
+            <img class="news-img pull-left" src="img/ging.jpg" alt="Forbes">
+            <p class="black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra orci ut. <br /> 
+            <small><em>Forbes - Feb 25, 2015</em></small></p>
+            </a>
+          </div>
+        </div>
+
+         <div class="row margin-30 news-container">
+          <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow fadeInLeft" data-wow-delay="1.2s">
+            <a href="#" target="_blank">
+            <img class="news-img pull-left" src="img/rob.jpg" alt="Forbes">
+            <p class="black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra orci ut. <br /> 
+            <small><em>Forbes - Feb 25, 2015</em></small></p>
+            </a>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    
+    
+    <footer>
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-sm-8 margin-20">
+          </div>
+          
+          <div class="col-sm-4 text-right">
+            <p><small>Copyright &copy; 2017. All rights reserved. <br>
+          </div>
+        </div>
+        
+      </div>
+    </footer>
+    
+    
+    <!-- Javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+   
+    </body>
 </html>
