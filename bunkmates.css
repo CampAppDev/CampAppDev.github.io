@@ -1,333 +1,63 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,900);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,900);
 
 html, body {
-  width: 100%;
   height: 100%;
-  padding:0px;
-  margin:0px;
-  font-family: montserrat;
+  margin: 0;
+  font-family: Montserrat;
+  font-family:Lato;
+  color: white;
 }
 
-#superContainer {
-  height: 100%;
-  position: relative;
-  /* Touch detection for Windows 8 */
-  -ms-touch-action: none;
+#page1 { background: url(photos/clc.jpg)}
+#page3 { background: #5CA48D; }
+
+.wrapper {
+  display: table;
+  height: 100%; width: 100%;
 }
 
-.section {
-  position: relative;
-  box-sizing: border-box;
+.stage {
+  display: table-cell;
+  vertical-align: middle;
 }
 
-
-#section1{
-	background:url(photos/clc.jpg) no-repeat center center fixed;
-	background-size: cover;
+.tabled, .middled {
+  text-align: center;
+  margin: 0 auto;
 }
 
-#section2{
-	background:#1CD24E;
+h1 { text-transform: uppercase; }
+.thin { font-weight: normal; }
+.thick { font-weight: bolder; }
+
+span.slogan{
+    font-family: Montserrat;
+    color:white;
 }
 
-#section3{
-    background:#387EA5;
-}
-
-#section4{
-	background:#AB3428;
-}
-
-.navbar{
-	background:white;
-	width:100%;
-	top:0;
-	position: fixed;
-	z-index: 9999;
-	padding:0 15%;
-	background:none;
-	font-size:2em;
-	color:white;
-}
-
-.navbar ul{
-	list-style-type: none;
-}
-
-.navbar ul li{
-	float:left;
-}
-
-.overlay{
-	background:rgba(0,0,0,.4);
-	height:calc(100% - 60px);
-	width:100%;
-	z-index: 5000;
-	position: absolute;
-	top:0;
-	height:100vh;
- 	box-sizing: border-box;
-}
-
-.slogan{
-	color:white;
-	text-align: center;
-	font-size:24px;
-	z-index:6000;
-	margin-top:150px;
-}
-
-.detail{
-	text-align:center;
-	color:white;
-	padding:0 15%;
-	width:50%;
-	margin:20px auto;
-	font-size:16px;
+.page-content{
+    display: table-cell;
+    padding:0 15%;
+   text-align:left;
+  font-family:Montserrat;
 }
 
 .page-title{
-	text-align: center;
-	font-size:26px;
-	color:white;
-	margin-top:150px;
+  font-size:36px;
+  color:black;
+  text-align:center;
+  margin-top:30px;
 }
 
-.info-box{
-	min-height: 300px;
-	height:calc(65vh);
-	max-height: 550px;
-	max-width: 750px;
-	width:60%;
-	color:black;
-	background:white;
-	margin:20px auto;
-	border-radius: 2px;
-	box-shadow: 0 0px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-    text-align: center;
-    padding-top:5px;
-
+.page-detail{
+  background:rgba(255,255,255,.5);
+  color:black;
+  padding:5px;
+  border-radius:2px;
+  margin-top:5px;
 }
 
-.scroll{
-    position: absolute;
-    bottom:0;
-    height:80px;
-    width:100%;
-    text-align: center;
-    line-height: 40px;
-    color:white;
-    font-size:20px;
-
-}
-
-.chevron::before {
-    border-style: solid;
-    border-width: 0.25em 0.25em 0 0;
-    content: '';
-    display: inline-block;
-    height: 0.80em;
-    left: 0.15em;
-    position: relative;
-    top: 0.15em;
-    transform: rotate(-45deg);
-    vertical-align: top;
-    width: 0.8em;
-}
-
-.chevron{
-    text-align: center;
-    width:100%;
-}
-
-.chevron.right:before {
-    left: 0;
-    transform: rotate(45deg);
-}
-
-.chevron.down:before {
-    top:0;
-    transform: rotate(135deg);
-}
-
-.chevron.left:before {
-    left: 0.25em;
-    transform: rotate(-135deg);
-}
-
-.scroll-label{
-    height:50%;
-    width:100%;
-    text-align: center;
-}
-
-
-
-.slide {
-  float: left;
-}
-
-.slide, .slidesContainer {
-  height: 100%;
-  display: block;
-}
-
-.slides {
-  height: 100%;
-  overflow: hidden;
-  position: relative;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-}
-
-.section.table,
-.slide.table {
-  display: table;
-  width: 100%;
-}
-
-.tableCell {
-  display: table-cell;
-  vertical-align: middle;
-  width: 100%;
-  height: 100%;
-}
-
-.slidesContainer {
-  float: left;
-  position: relative;
-}
-
-.controlArrow {
-  position: absolute;
-  top: 50%;
-  cursor: pointer;
-  width: 0px;
-  height: 0px;
-  border-style: solid;
-  margin-top: -38px;
-}
-
-.controlArrow.prev {
-  left: 15px;
-  width: 0px;
-  border-width: 38.5px 34px 38.5px 0;
-  border-color: transparent #fff transparent transparent;
-}
-
-.controlArrow.next {
-  right: 15px;
-  border-width: 38.5px 0 38.5px 34px;
-  border-color: transparent transparent transparent #fff;
-}
-
-.scrollable {
-  overflow: scroll;
-}
-
-.easing {
-  -webkit-transition: all 0.7s ease-out;
-  -moz-transition: all 0.7s ease-out;
-  -o-transition: all 0.7s ease-out;
-  transition: all 0.7s ease-out;
-}
-
-#fullPage-nav {
-  position: fixed;
-  z-index: 100;
-  margin-top: -32px;
-  top: 50%;
-  opacity: 1;
-}
-
-#fullPage-nav.right {
-  right: 17px;
-}
-
-#fullPage-nav.left {
-  left: 17px;
-}
-
-.fullPage-slidesNav {
-  position: absolute;
-  z-index: 4;
-  left: 50%;
-  opacity: 1;
-}
-
-.fullPage-slidesNav.bottom {
-  bottom: 17px;
-}
-
-.fullPage-slidesNav.top {
-  top: 17px;
-}
-
-#fullPage-nav ul,
-.fullPage-slidesNav ul {
-  margin: 0;
-  padding: 0;
-}
-
-#fullPage-nav li,
-.fullPage-slidesNav li {
-  display: block;
-  width: 14px;
-  height: 13px;
-  margin: 7px;
-  position: relative;
-}
-
-.fullPage-slidesNav li {
-  display: inline-block;
-}
-
-#fullPage-nav li a,
-.fullPage-slidesNav li a {
-  display: block;
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-#fullPage-nav li .active span,
-.fullPage-slidesNav .active span {
-  background: #333;
-}
-
-#fullPage-nav span,
-.fullPage-slidesNav span {
-  top: 2px;
-  left: 2px;
-  width: 8px;
-  height: 8px;
-  border: 1px solid #000;
-  background: transparent;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  position: absolute;
-  z-index: 1;
-}
-
-.fullPage-tooltip {
-  position: absolute;
-  color: #fff;
-  font-size: 14px;
-  font-family: arial, helvetica, sans-serif;
-  top: -2px;
-}
-
-.fullPage-tooltip.right {
-  right: 20px;
-}
-
-.fullPage-tooltip.left {
-  left: 20px;
+.page-detail h2{
+  text-align:center;
 }
