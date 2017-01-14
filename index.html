@@ -22,6 +22,13 @@
   <link rel="stylesheet" href="css/main.css">
 
   <script src="js/modernizr-2.7.1.js"></script>
+
+  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script type="text/javascript">
+   (function(){
+      emailjs.init("user_u3AQh4mqKRz2BhO8pauP7");
+   })();
+   </script>
   
 </head>
 
@@ -36,12 +43,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="logo" href="index.html"><img src="" alt="">BunkMates</a>
+          <a class="logo" href=""><img src="" alt="BunkMates"></a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#pricing" class="scroll">Pricing</a></li>
-            <li><a href="#">Sign in</a></li>
+            <li><a href="#pricing" class="scroll navbar-btn">Pricing</a></li>
+            <li><a href="#" class="navbar-btn">Sign In</a></li>
           </ul>
         </div><!--/.navbar-collapse -->
       </div>
@@ -51,7 +58,7 @@
       <div class="container">
         <div class="row nav-row">
           <div class="col-xs-6">
-            <a class="logo" href="index.html"><img src="" alt="">BunkMates</a>
+            <a class="logo" href=""><img src="" alt="BunkMates"></a>
           </div>
           <div class="col-xs-6 signin text-right navbar-nav">
             <a href="#pricing" class="scroll">Pricing</a>&nbsp; &nbsp;<a href="#">Sign in</a>
@@ -93,7 +100,7 @@
         <div class="row">
           <div class="col-sm-8 col-sm-offset-2 text-center margin-30 wow fadeIn" data-wow-delay="0.6s">
             <h2>An intuitive front office software suite for camps</h2>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipis.</p>
+            <p class="lead">Our three apps - Groups, Teams and Docs - are designed to solve the problems that camps face every day</p>
           </div>
         </div>
         
@@ -133,12 +140,121 @@
 		    </div>
 	    </div>
     </section>
-        
+    
+
+    <section id="demo" class="pad-xl">
+      <div class="container">
+      <div class="row">
+          <div class="col-sm-8 col-sm-offset-2 text-center margin-30 wow fadeIn" data-wow-delay="0.6s">
+            <h2 class="black">BunkMates Demo</h2>
+          </div>
+      </div>
+        <div class="row">
+          <div class="video-wrapper">
+            <iframe src="http://www.youtube.com/embed/Zhawgd2450REhA" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
         
     <!--Pricing-->
     <section id="pricing" class="pad-lg">
       <div class="container">
-        <div class="row margin-40">
+       <div class="row margin-40">
+          <div class="col-sm-8 col-sm-offset-2 text-center">
+            <h2 class="white">Subscription Types</h2>
+          </div>
+        </div>
+      <table id="featureList" class="table table-hover table-bordered" style="text-align:center;padding-left:200px; padding-right:200px;">
+    <thead>
+      <tr class="active">
+          <th><center></center></th>
+          <th><center><h3>Standard</h3><p class="text-muted text-sm">Basic access to BunkMates</p></center></th>
+          <th><center><h3>Premium</h3><p class="text-muted text-sm">Complete accesss specialists</p></center></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="vertical-align: middle;">Price</td>
+        <td><h3 class="panel-title price">$5/Camper</h3></td>
+        <td><h3 class="panel-title price">$7/Camper</h3> </td>
+      </tr>
+      <tr>
+        <td colspan="5" align="left" style="padding-left:20px;" class="active"><b>Website Features</b></td>
+      </tr>
+      <tr>
+        <td>Responsive design</td>
+        <td><i style="color:limegreen" class="fa fa-check fa-lg"></i></td>
+        <td><i style="color:limegreen" class="fa fa-check fa-lg"></i></td>
+      </tr>
+      <tr>
+        <td>Scales to mobile</td>
+        <td><i style="color:limegreen" class="fa fa-check fa-lg"></i></td>
+        <td><i style="color:limegreen" class="fa fa-check fa-lg"></i></td>
+      </tr>
+      <tr>
+        <td>Contact Form</td>
+        <td>-</td>
+        <td><i style="color:limegreen" class="fa fa-check fa-lg"></i></td>
+      </tr>
+            <tr>
+        <td>Social Media Integration</td>
+        <td>-</td>
+        <td><i style="color:limegreen" class="fa fa-check fa-lg"></i></td>
+      </tr>
+      <tr>
+        <td colspan="5" align="left" style="padding-left:20px;" class="active"><b>Features</b></td>
+      </tr>
+            <tr>
+        <td>Powerful Analytics</td>
+        <td><i style="color:limegreen" class="fa fa-check fa-lg"></i></td>
+        <td><i style="color:limegreen" class="fa fa-check fa-lg"></i></td>
+      </tr>
+            <tr>
+        <td>24/7 Support</td>
+        <td><i style="color:limegreen" class="fa fa-check fa-lg"></i></td>
+        <td><i style="color:limegreen" class="fa fa-check fa-lg"></i></td>
+      </tr>
+      <tr>
+        <td>Free Domain Name</td>
+        <td>-</td>
+        <td><i style="color:limegreen" class="fa fa-check fa-lg"></i></td>
+      </tr>
+      <tr>
+        <td colspan="3" align="left" style="padding-left:20px;" class="active"><b>Integration</b></td>
+      </tr>
+      <tr>
+        <td>Wordpress</td>
+        <td>+$250</td>
+        <td>+$250</td>
+      </tr>
+        <tr>
+        <td>Drupal</td>
+        <td>+$250</td>
+        <td>+$250</td>
+      </tr>
+        <tr>
+        <td>Ghost</td>
+        <td>+$250</td>
+        <td>+$250</td>
+      </tr>
+        <tr>
+        <td>Shopify</td>
+        <td>+$250</td>
+        <td>+$250</td>
+      </tr>
+        <tr>
+        <td>Opencart</td>
+        <td>+$350</td>
+        <td>+$350</td>
+      </tr>
+      </tr>
+        <tr><td></td>
+        <td><a class="btn btn-cta" style="margin-top:10px; margin-bottom:10px">Order Now</a></td>
+        <td><a class="btn btn-cta" style="margin-top:10px; margin-bottom:10px">Order Now</a></td>
+    </tbody>
+  </table>
+<!--         <div class="row margin-40">
           <div class="col-sm-8 col-sm-offset-2 text-center">
             <h2 class="white">Subscription Types</h2>
           </div>
@@ -183,7 +299,7 @@
     					<li class="features">BunkMates specialists available to personalize each app to fit your needs</li>
     					<li class="features last btn btn-secondary btn-wide"><a href="#">Get Started</a></li>
     				</ul>
-          </div>
+          </div> -->
           
         </div>
         
@@ -205,9 +321,9 @@
               <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
                 <form role="form">
                   <div class="form-group">
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="sample@youremail.com">
+                    <input type="email" class="form-control" id="emailSignUp" placeholder="sample@youremail.com">
                   </div>
-                  <button type="submit" class="btn btn-primary btn-lg">Request Invite</button>
+                  <button id="signUp" class="btn btn-primary btn-wide">Request Invite</button>
                 </form>
               </div>
             </div><!--End Form row-->
@@ -236,7 +352,9 @@
           <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow fadeInLeft" data-wow-delay="0.8s">
             <a href="#" target="_blank">
             <img class="news-img pull-left" src="img/ar.png" alt="Andrew Resnikoff">
-            <p class="black">                           Andrew came up with the idea for <span style="color:#1cd24e">BunkMates</span> in the spring of 2016 while still
+            <h3>Andrew Resnikoff</h3>
+            <p>Email: <a href="mailto:andrew@bunkmatesapp.com" style="color:#1cd24e">andrew@bunkmatesapp.com</a></p>
+            <p class="black"> Andrew came up with the idea for <span style="color:#1cd24e">BunkMates</span> in the spring of 2016 while still
                            an undergraduate at Carnegie Mellon University. He realized that a lot of the mathematics and computer science
                            that he was learning in his classes could be applied to problems he remembered facing in his many summers
                            as both a counselor and a camper at Crane Lake Camp. After validating his ideas with a couple hundred lines
@@ -248,9 +366,10 @@
         <div class="row margin-30 news-container">
           <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow fadeInLeft" data-wow-delay="1.2s">
             <a href="#" target="_blank">
-            <img class="news-img pull-left" src="img/jake.png" alt="Forbes">
-            <p class="black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra orci ut. <br /> 
-            <small><em>Forbes - Feb 25, 2015</em></small></p>
+            <img class="news-img pull-left" src="img/jake.png" alt="Jake Horowitz">
+                        <h3>Jake Horowitz</h3>
+                        <p>Email: <a href="mailto:jake@bunkmatesapp.com" style="color:#1cd24e">jake@bunkmatesapp.com</a></p>
+                        <p>Jake is a recent graduate of the Goizueta Business School at Emory University.  He spent 8 summers at Crane Lake Camp as both a camper and a tennis instructor.  He loved his years at Crane Lake Camp, but was often frustrated with the amount of time spent on front office activities that could have been easily automated.  When Andrew presented Jake with the idea for <span style="color:#1cd24e">BunkMates</span>, Jake immediately realized how helpful this product would be to camps across the country.  His genuine interest in streamlining camp processes coupled with his business acumen will allow Jake to assist with any needs camps may need.</p>
             </a>
           </div>
         </div>
@@ -258,9 +377,10 @@
          <div class="row margin-30 news-container">
           <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow fadeInLeft" data-wow-delay="1.2s">
             <a href="#" target="_blank">
-            <img class="news-img pull-left" src="img/ging.jpg" alt="Forbes">
-            <p class="black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra orci ut. <br /> 
-            <small><em>Forbes - Feb 25, 2015</em></small></p>
+            <img class="news-img pull-left" src="img/ging.jpg" alt="Jonathan Bennett">
+            <h3>Jonathan Bennett</h3>
+            <p>Email: <a href="mailto:jon@bunkmatesapp.com" style="color:#1cd24e">jon@bunkmatesapp.com</a></p>
+            <p class="black">Jonathan studied Psychology as an undergraduate at the University at Albany with future plans of helping people through social work. Jon spent 7 summers as both a camper and counselor, alongside the rest of the <span style="color:#1cd24e">BunkMates</span> team. Through <span style="color:#1cd24e">BunkMates</span>, he hopes to help improve the quality of camping for future staff and campers.</p>
             </a>
           </div>
         </div>
@@ -268,9 +388,11 @@
          <div class="row margin-30 news-container">
           <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow fadeInLeft" data-wow-delay="1.2s">
             <a href="#" target="_blank">
-            <img class="news-img pull-left" src="img/rob.jpg" alt="Forbes">
-            <p class="black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra orci ut. <br /> 
-            <small><em>Forbes - Feb 25, 2015</em></small></p>
+            <img class="news-img pull-left" src="img/rob.jpg" alt="Robert Weissman">
+            <h3>Rob Weissman</h3>
+            <p>Email: <a href="mailto:rob@bunkmatesapp.com" style="color:#1cd24e">rob@bunkmatesapp.com</a></p>
+            <p class="black">Rob is a graduate of CUNY Baruch College who spent his summers at Crane Lake Camp with the rest of the   
+                        <span style="color:#1cd24e">BunkMates</span> team.  He has experience working at Crane Lake as a Programming Assistant, giving him the knowledge of what is most essential to a programming team.  Prior to this, he spent a considerable amount of time in high school developing programs for his peers as the Programming Vice President of the North American Federation of Temple Youth’s New York Area Region.  His vast experience on the creative end of camping and youth programming makes him able to provide the proper support to your camp.</p>
             </a>
           </div>
         </div>

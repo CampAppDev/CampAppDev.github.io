@@ -21,7 +21,7 @@ h1 {
 h2 {
   font-size: 40px;
   line-height: 40px;
-  etter-spacing: -0.5px;
+  letter-spacing: -0.5px;
   color: #ffffff;
   font-weight: 700;
 }
@@ -270,16 +270,38 @@ a:hover, a:focus {
   color:white;
   font-weight: bold;
   margin-top:16px;
+    border:none !important;
+  outline: none !important;
+  background:blue;
 }
 
 .logo img {
 	margin-top: 6px;
+  color:rgb(35,139,83);
+  color:white;
+  font-size:1.25em;
+  font-weight: bold;
+  border:none !important;
+  outline: none !important;
 }
 
 .nav-row{
-  background:rgba(0,0,0,.5);
   border-radius: 2px;
-  height:40px;
+  border-bottom: 2px solid white;
+}
+
+.navbar-btn{
+  color:white !important;
+  border-radius: 2px;
+  transition-duration: 1.6s;
+  margin:0 5px;
+  border:1px solid black;
+}
+
+.navbar-btn:hover{
+    text-decoration:none;
+    border:1px solid white;
+    opacity: 1 !important;
 }
 
 
@@ -460,13 +482,45 @@ footer {
   opacity: 0.5;
 }
 
+.video-wrapper {
+    position: relative;
+    padding-bottom: 74.25%; /* 4:3 ratio */
+    padding-top: 30px; /* IE6 workaround*/
+    height: 0;
+    overflow: hidden;
+}
 
+iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border:none;
+    border-radius: 2px;
+}
+/*iframe,object,embed,video,.videoWrapper,.video-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:blue;
+}*/
+
+#demo{
+  background:#f2f2f2;
+}
 
 /*---------------Pricing Tables-------------------*/
 
 
 #pricing {
   background: #AB3428;
+}
+
+#featureList{
+  background:white;
 }
 
 .pricing-container {
@@ -573,6 +627,11 @@ footer {
     border-radius: 0;
 }
 
+.panel-title{
+  font-size:1.2em;
+  max-height:1.5em;
+  line-height:0px;
+}
 
 
 
