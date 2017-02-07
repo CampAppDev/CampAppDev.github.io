@@ -67,7 +67,6 @@ $(document).ready(function(){
       wow.init();
 
    $(this).scrollTop(0);
-   alert("here");
 	
 });
 
