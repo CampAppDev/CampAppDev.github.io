@@ -2,7 +2,7 @@ $(document).ready(function(){
   
   $('#signUp').click(function(){
     var email = $('#emailSignUp').val()
-    if (validateEmail(email)){
+    if (!validateEmail(email)){
       alert("Please enter a valid email");
 
 
