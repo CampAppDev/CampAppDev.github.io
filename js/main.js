@@ -52,7 +52,7 @@ $(document).ready(function(){
   	$('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
   	
   });
-  
+
   //------------------------------------//
   //Wow Animation//
   //------------------------------------// 
@@ -66,7 +66,8 @@ $(document).ready(function(){
       );
       wow.init();
 
-
+   $(this).scrollTop(0);
+   alert("here");
 	
 });
 
